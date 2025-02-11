@@ -1,5 +1,7 @@
 import cv2
 
+# Helper script to display output ( run simultaneously with main )
+
 # output stream
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
